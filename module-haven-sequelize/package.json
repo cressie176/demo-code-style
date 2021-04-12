@@ -1,0 +1,17 @@
+{
+  "name": "module-haven-sequelize",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cls-hooked": "^4.2.2",
+    "pg": "^8.5.1",
+    "sequelize": "^6.6.2",
+    "umzug": "^2.3.0"
+  }
+}
