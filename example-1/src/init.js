@@ -47,7 +47,7 @@ module.exports = function init() {
 
     initModel({ sequelize });
 
-    const userService = new UserService();
+    const userService = new UserService({ sequelize });
 
     app.use((req, res, next) => {
       res.once('finish', function() {
