@@ -6,7 +6,7 @@ let service;
   try {
     service = init();
     await service.start();
-    logger.error('Service started')
+    logger.info('Service started')
   } catch (err) {
     logger.error('Service failed to start', err)
   }
